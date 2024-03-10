@@ -1,0 +1,120 @@
+/* Element selectors  
+// body and div are selectors, and so on 
+body{
+
+    background-color: black;
+}
+
+div
+{
+    color: aliceblue;
+}
+
+h1{
+    color: brown;
+}
+*/
+
+/* Using Id : CSS for each and every individual element AKA Selector Id*/
+/* 
+#h1{
+    color: rgb(189, 143, 37);
+    text-align: center;
+    padding: 5%;
+
+}
+
+#h2{
+    color: bisque;
+}
+
+#p1{
+    color: gray;
+    background-color: bisque;
+    text-align: center;
+}
+
+.pc1{
+    background-color: chocolate;
+    color: white;
+} */
+
+
+/* * applies css to all the elements */
+/* *{
+    color: tomato;
+    background-color: white;
+} */
+
+/* Grouping selectors */
+/* h1,h2,p{
+    background-color: black;
+    color: red;
+    text-align: center;
+} */
+
+
+.pc1 {
+    font-size: 16px;
+
+}
+
+.pc1:first-child {
+    font-size: 2em; 
+}
+
+.pc1:nth-of-type(1) {
+    color: blue;
+    background-color: bisque;
+}
+
+/* Uncomment the following and adjust styles as needed */
+.pc1:nth-of-type(2) {
+    color: red;
+}
+
+.pc1:nth-of-type(3) {
+    color: green;
+    background-color: bisque;
+}
+
+
+/* Color Types 
+1. RGB
+2. Hex : #f9f9f9
+3. HSL : Hue, Saturation, lightness*/
+
+/* 
+*{
+  
+    color: hsl(28, 71%, 61%)
+
+} */
+
+/* border style */
+
+h1{
+    /* border-style: dashed; */
+    /* border-radius: 20%; */
+    /* border-style: double; */
+    /* border-style: dotted; */
+    /* border-style: groove; */
+    /* border-style: initial; */
+    /* border-style: double; */
+    border-style: none ridge outset dashed;
+    /* border-width: thick; */
+    /* border-width: medium small thick 20px; */
+    border-width: 5px 10px 20px 15 px;
+    border-color: yellowgreen;
+
+}
+/* 
+p{
+    border-style: dotted;
+    border-color: blue red yellow purple;
+    border-radius: 10px;
+} */
+
+p{
+    border: 1px solid tomato;
+}
