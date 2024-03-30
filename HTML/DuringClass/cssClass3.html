@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Class 3</title>
+
+    <style>
+        .container {
+            /* display flex and flex-direction should be always used in parent */
+            display: flex;
+            flex-direction: row;
+            /* width: 30rem; */
+            border: 5px solid rgb(201, 201, 92);
+            justify-content: left;
+            /* height: calc(5vh); */
+            flex-wrap: wrap;
+        }
+
+        /* rule >>>> content width < width< flex-basis< min-width/max-width */
+        .container>div {
+            flex-basis: 500px;
+            /* flex-grow: unset; */
+
+            border: 3px solid red;
+            gap: 2px;
+            /* width: 300px; */
+            max-width: 50px;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+
+        <!-- <div>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, commodi natus distinctio dolor officiis
+                sit
+                corporis non, veritatis delectus eos quisquam! Corporis assumenda soluta saepe magni esse accusamus ad
+                est!
+            </p>
+
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci recusandae eaque voluptatum quidem
+                aperiam
+                blanditiis quaerat quod molestias at incidunt. Magni molestiae numquam libero quia, magnam assumenda sed
+                delectus amet quasi veniam mollitia dolor voluptatibus. Vitae doloremque itaque debitis dolorem tenetur
+                totam quasi reiciendis dolore doloribus obcaecati dolorum aliquam consequatur officiis, veritatis, non
+                excepturi magni eius. Expedita minima dolore explicabo.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe! Sapiente voluptatum aperiam
+                officiis necessitatibus vel voluptates assumenda saepe voluptatem, quas beatae nobis voluptas iusto
+                commodi! Enim fugit magni illo id sequi saepe eaque. Eligendi vel, voluptatum possimus veritatis,
+                quaerat obcaecati sequi voluptates fugiat nulla sapiente aliquid maxime officia iste beatae magnam
+                accusantium repellendus cum! Repellendus iste temporibus amet nihil magni, unde cum harum suscipit
+                corrupti officiis cupiditate minima sint tenetur dignissimos, eligendi libero eaque, at magnam aperiam
+                quae id quisquam ea fugit saepe! Reiciendis error aspernatur sed ullam nisi.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe! Sapiente voluptatum aperiam
+                officiis necessitatibus vel voluptates assumenda saepe voluptatem, quas beatae nobis voluptas iusto
+                commodi! Enim fugit magni illo id sequi saepe eaque. Eligendi vel, voluptatum possimus veritatis,
+                quaerat obcaecati sequi voluptates fugiat nulla sapiente aliquid maxime officia iste beatae magnam
+                accusantium repellendus cum! Repellendus iste temporibus amet nihil magni, unde cum harum suscipit
+                corrupti officiis cupiditate minima sint tenetur dignissimos, eligendi libero eaque, at magnam aperiam
+                quae id quisquam ea fugit saepe! Reiciendis error aspernatur sed ullam nisi.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe! Sapiente voluptatum aperiam
+                officiis necessitatibus vel voluptates assumenda saepe voluptatem, quas beatae nobis voluptas iusto
+                commodi! Enim fugit magni illo id sequi saepe eaque. Eligendi vel, voluptatum possimus veritatis,
+                quaerat obcaecati sequi voluptates fugiat nulla sapiente aliquid maxime officia iste beatae magnam
+                accusantium repellendus cum! Repellendus iste temporibus amet nihil magni, unde cum harum suscipit
+                corrupti officiis cupiditate minima sint tenetur dignissimos, eligendi libero eaque, at magnam aperiam
+                quae id quisquam ea fugit saepe! Reiciendis error aspernatur sed ullam nisi.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe! Sapiente voluptatum aperiam
+                officiis necessitatibus vel voluptates assumenda saepe voluptatem, quas beatae nobis voluptas iusto
+                commodi! Enim fugit magni illo id sequi saepe eaque. Eligendi vel, voluptatum possimus veritatis,
+                quaerat obcaecati sequi voluptates fugiat nulla sapiente aliquid maxime officia iste beatae magnam
+                accusantium repellendus cum! Repellendus iste temporibus amet nihil magni, unde cum harum suscipit
+                corrupti officiis cupiditate minima sint tenetur dignissimos, eligendi libero eaque, at magnam aperiam
+                quae id quisquam ea fugit saepe! Reiciendis error aspernatur sed ullam nisi.</p>
+        </div> -->
+    </div>
+    <a href="moreExamplesOnFlex.html">More example on flex</a>
+</body>
+
+</html>
