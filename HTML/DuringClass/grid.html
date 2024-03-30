@@ -17,17 +17,34 @@
             so basically this aspect ration configuration for row. 
             Height will adjusted on the basis of that aspect ratio. 
             Don't take it as it's gonna split the screen into those aspect ratio. 
-            
+
             In column I have just added 3 columns, with 1fr , 2 fr and 1 fr and accordingly the width is adjusted.
             
             For row 5th there is no configuration mentioned by me, so now the height is again 1X. 
+            Also, there is a reason I am taking fr fractions only because these responsive and the aspect ratio will adjust according to the device used. 
+            
             Hope this clear :) 
             */
+            /* To see the effect Comment all code below next 2 lines i.e.
+             grid-template-rows: 1fr 2fr 1fr 4fr;
+             grid-template-columns: 1fr 2fr 1fr;
 
+             Because the code below will overwrite these lines.
+            */
             grid-template-rows: 1fr 2fr 1fr 4fr;
             grid-template-columns: 1fr 2fr 1fr;
             /* grid-template-rows: 2fr 2fr;
             grid-template-columns: 3fr 3fr; */
+
+
+
+            /* The number of auto you will pass in column will give you the same exact no. of auto adjustive columns
+            Ex. Pass 2 auto , 3 auto , 4 auto */
+            grid-template-rows: auto auto;
+            /* grid-template-columns: auto auto;  */
+            grid-template-columns: auto auto auto;
+
+
         }
 
         .grid-item {
