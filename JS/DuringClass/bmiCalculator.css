@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    gap: 10px ;
+}
+
+
+.members{
+   border: black 1px solid; 
+   gap: 70px ;
+}
+
+.form{
+    padding: 5px;
+}

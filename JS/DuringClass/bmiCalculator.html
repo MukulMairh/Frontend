@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+
+    <link rel="stylesheet" href="bmiCalculator.css">
+</head>
+
+<body>
+    <h1>BMI Calculator and Comparision</h1>
+    <div class="container">
+        <div class="members">
+            <form action="" class="form">
+                <div>
+                    <div>
+                        <label for="jhonHeight">Jhon's Height</label>
+                        <input type="text" name="jhonHeight" id="jhonHeight">
+                    </div>
+                    <div>
+                        <label for="jhonWeight">Jhon's Weight</label>
+                        <input type="text" name="jhonWeight" id="jhonWeight">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="members">
+            <form action="" class="form">
+                <div>
+                    <div>
+                        <label for="markHeight">Mark's Height</label>
+                        <input type="text" name="markHeight" id="markHeight">
+                    </div>
+                    <div>
+                        <label for="markWeight">Mark's Weight</label>
+                        <input type="text" name="markWeight" id="markWeight">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h2 id="resultBMI"></h2>
+    </div>
+    <!-- Called script file in the bottom as script file was getting loaded even before the html file was getting loaded. -->
+    <script src="bmiCalculatorForHTML.js"></script>
+</body>
+
+</html>
