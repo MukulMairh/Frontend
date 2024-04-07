@@ -13,35 +13,27 @@
     <h1>BMI Calculator and Comparision</h1>
     <div class="container">
         <div class="members">
-            <form action="" class="form">
-                <div>
-                    <div>
-                        <label for="jhonHeight">Jhon's Height</label>
-                        <input type="text" name="jhonHeight" id="jhonHeight">
-                    </div>
-                    <div>
-                        <label for="jhonWeight">Jhon's Weight</label>
-                        <input type="text" name="jhonWeight" id="jhonWeight">
-                    </div>
-                </div>
-
-            </form>
+            <div class="paddingOnFrame">
+                <label for="jhonHeight">Jhon's Height</label>
+                <input type="number" name="jhonHeight" id="jhonHeight">
+            </div>
+            <div class="paddingOnFrame">
+                <label for="jhonWeight">Jhon's Weight</label>
+                <input type="number" name="jhonWeight" id="jhonWeight">
+            </div>
         </div>
         <div class="members">
-            <form action="" class="form">
-                <div>
-                    <div>
-                        <label for="markHeight">Mark's Height</label>
-                        <input type="text" name="markHeight" id="markHeight">
-                    </div>
-                    <div>
-                        <label for="markWeight">Mark's Weight</label>
-                        <input type="text" name="markWeight" id="markWeight">
-                    </div>
-                </div>
-            </form>
+            <div class="paddingOnFrame">
+                <label for="markHeight">Mark's Height</label>
+                <input type="number" name="markHeight" id="markHeight">
+            </div>
+            <div class="paddingOnFrame">
+                <label for="markWeight">Mark's Weight</label>
+                <input type="number" name="markWeight" id="markWeight">
+            </div>
         </div>
     </div>
+    <button onclick="submitValues()">Submit</button>
     <div>
         <h2 id="resultBMI"></h2>
     </div>
